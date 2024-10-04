@@ -1,7 +1,5 @@
 package com.bptn.course._13_week2_hackday_friday;
 
-import java.text.DecimalFormat;
-
 public class Stock {
 
     // Create instance variables
@@ -29,19 +27,18 @@ public class Stock {
 
     // Method to adjust the price
     public void adjustPrice(int change) {
-        int oldPrice = price; // Store the old price
-        price += change; // Adjust the price
-        percentChange = ((double) change / oldPrice) * 100; // Calculate percent change based on old price
-        marketCap = calculateMarketCap(); // Recalculate market cap
+        int oldPrice = price; 
+        price += change; 
+        percentChange = ((double) change / oldPrice) * 100; 
+        marketCap = calculateMarketCap(); 
     }
 
     // Method to convert to string
     @Override
     public String toString() {
-        DecimalFormat df = new DecimalFormat("#.#################"); // Format for floating-point numbers
         return "Ticker Symbol: " + tickerSymbol + "\n" +
                "Company: " + companyName + "\n" +
-               "Current Price: $" + price + " (" + df.format(percentChange) + "%)\n" +
+               "Current Price: $" + price + " (" + percentChange + "%)\n" +
                "Market Cap: " + marketCap;
     }
 
