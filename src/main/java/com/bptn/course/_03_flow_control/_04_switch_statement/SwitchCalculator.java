@@ -1,11 +1,13 @@
+package com.bptn.course._03_flow_control._04_switch_statement;
+
 import java.util.Scanner;
 
-public class MobileDataPlanSelector {
+public class SwitchCalculator {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int choice;
-        
+
         System.out.println("Welcome to the Mobile Data Plan Selector!");
         System.out.println("Please select a data plan:");
         System.out.println("1. 1 GB - $10");
@@ -13,10 +15,10 @@ public class MobileDataPlanSelector {
         System.out.println("3. 10 GB - $50");
         System.out.println("4. Unlimited - $70");
         System.out.println("5. Exit");
-        
+
         System.out.print("Enter the number corresponding to your choice: ");
         choice = scanner.nextInt();
-        
+
         switch (choice) {
             case 1:
                 System.out.println("You have selected the 1 GB plan.");
@@ -41,7 +43,7 @@ public class MobileDataPlanSelector {
                 System.out.println("Error: Invalid selection. Please choose a valid data plan.");
                 break;
         }
-        
+
         scanner.close();
     }
 }

@@ -1,4 +1,4 @@
-package _06_oop;
+package com.bptn.course._06_oop;
 
 public class DepartmentSystem {
 
