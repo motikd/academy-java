@@ -1,0 +1,9 @@
+Pancakes;Flour,Milk,Eggs,Sugar;Mix ingredients and cook on a griddle.;Breakfast
+Omelette;Eggs,Cheese,Peppers,Onion;Whisk eggs and cook with vegetables in a pan.;Breakfast
+Fruit Salad;Apples,Bananas,Oranges,Strawberries;Chop fruits and mix together.;Breakfast
+Chicken Curry;Chicken,Spices,Onion,Tomato;Cook chicken with spices and tomatoes.;Lunch
+Caesar Salad;Lettuce,Croutons,Caesar dressing;Toss lettuce with dressing and croutons.;Lunch
+Grilled Cheese Sandwich;Bread,Cheese,Butter;Toast bread with cheese in a pan until golden.;Lunch
+Spaghetti Carbonara;Pasta,Eggs,Cheese,Bacon;Cook pasta, mix with eggs and cheese, add bacon.;Dinner
+Vegetable Stir-fry;Mixed vegetables,Soy sauce;Stir-fry vegetables in a pan with soy sauce.;Dinner
+Chocolate Cake;Flour,Sugar,Cocoa powder,Eggs;Mix ingredients and bake.;Dinner
